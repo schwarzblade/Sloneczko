@@ -1,8 +1,13 @@
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
-img {vertical-align: middle;}
-
+img {vertical-align: middle;
+}
+.w3-bar-item w3-button w3-mobile{
+  margin-left: 0;
+  float: left;
+  margin-left: 0px;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
