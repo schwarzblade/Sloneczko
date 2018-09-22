@@ -12,4 +12,4 @@ function myMap() {
   infowindow.open(map,marker);
 }
 
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8LQPqDI8Xzg64ABVmSlTaVrjuOotSZ58&callback=myMap";
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8LQPqDI8Xzg64ABVmSlTaVrjuOotSZ58&callback=myMap"
