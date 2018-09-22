@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="js/slide.js"></script>
 <script type="text/javascript" src="js/map.js"></script>
 <style>
 
@@ -432,7 +431,7 @@ img {
 
 <!-- Add Google Maps -->
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8LQPqDI8Xzg64ABVmSlTaVrjuOotSZ58 &callback=myMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8LQPqDI8Xzg64ABVmSlTaVrjuOotSZ58&callback=myMap"></script>
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
@@ -487,24 +486,7 @@ function carousel() {
   } 
 </script>
 
-<script>
 
 
-function myMap() {
-  var myCenter = new google.maps.LatLng(49.674840,20.055930);
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {center: myCenter, zoom: 5};
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-  var marker = new google.maps.Marker({position:myCenter});
-  marker.setMap(map);
-
-  var infowindow = new google.maps.InfoWindow({
-    content: "Słoneczko Jak u Mamy!"
-  });
-  infowindow.open(map,marker);
-}
-
-
-</script>
 </body>
 </html>
