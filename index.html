@@ -9,104 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="js/map.js"></script>
-<style>
 
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-</style>
 </head>
 
 <body class="w3-light-grey">
@@ -132,32 +35,32 @@ img {
 <div class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   <div class="mySlides">
-    <div class="numbertext">1 / 4</div>
+    <div class="numbertext">1 / 6</div>
     <img src="img/wielkanoc.png" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">2 / 4</div>
+    <div class="numbertext">2 / 6</div>
     <img src="img/ciasta.png" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">3 / 4</div>
+    <div class="numbertext">3 / 6</div>
     <img src="img/noc.png" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">4 / 4</div>
+    <div class="numbertext">4 / 6</div>
     <img src="img/impra.png" style="width:100%">
   </div>
   <div class="mySlides">
-    <div class="numbertext">4 / 4</div>
+    <div class="numbertext">5 / 6</div>
     <img src="img/obiad.png" style="width:100%">  
   </div>
   <div class="mySlides">
-    <div class="numbertext">4 / 4</div>
+    <div class="numbertext">6 / 6`</div>
     <img src="img/sylwester.png" style="width:100%">  
   </div>
   <div class="w3-container w3-margin-top" id="rooms">
     <h3>Pokoje</h3>
-    <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+    <p>Czuj się jak w domu to nasze motto.</p>
   </div>
   <div class="w3-row-padding w3-padding-16">
     <div class="w3-third w3-margin-bottom">
@@ -198,7 +101,11 @@ img {
   <div class="w3-row-padding" id="about">
     <div class="w3-col l4 m7">
       <h3>O nas</h3>
-      <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+      <h6>Ośrodek wypoczynkowy "Jak u Mamy" położony jest w Mszanie Dolnej i zapewnia bezpłatne WiFi. W obiekcie do dyspozycji Gości jest ogród, taras, wspólny salon oraz plac zabaw dla dzieci.
+      Pokoje w ośrodku wyposażone są w szafę oraz telewizor. Mieszczą one również prywatną łazienkę. Niektóre pokoje zapewniają widok na góry, a każdy wyposażony jest w czajnik.
+      Codziennie rano na miejscu serwowane jest śniadanie kontynentalne.
+      W okolicy panują doskonałe warunki do uprawiania rozmaitych form aktywnego wypoczynku, w tym jazdy na nartach.
+      Obiekt oddalony jest o 44 km od Krakowa. Odległość od międzynarodowego lotniska Kraków-Balice wynosi 48 km. </h6>
       </div>
     <div class="w3-col l8 m5">
       <div id="map" style="width:100%;height:400px;" class="w3-grayscale"></div>
@@ -383,8 +290,6 @@ img {
     <div class="column">
       <img class="demo cursor" src="img/niebieski.jpg" style="width:100%" onclick="currentSlide(12)" alt="niebieski">
     </div>
-    
-    
     <div class="column">
       <img class="demo cursor" src="img/zółty1.jpg" style="width:100%" onclick="currentSlide(13)" alt="żółty">
     </div>
@@ -450,10 +355,10 @@ img {
     <i class="fa fa-phone w3-text-red" style="width:30px"></i>Tel.: (018)33-10-199 kom. 694-842-268<br>
     <i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: sloneczko.mszana@gmail.com<br>
     <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Imie" required name="Imie"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Wiadomość" required name="Wiadomość"></p>
+      <p><button class="w3-button w3-black w3-padding-large" type="submit">WYŚLIJ</button></p>
     </form>
   </div>
 
