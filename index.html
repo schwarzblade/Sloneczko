@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Słoneczko-JakuMamy</title>
+<title>Słoneczko-JakuMamy, wczasy, pokoje, wypoczynek, kwatery , Beskid Wyspowy , góry, B&B</title>
 <meta charset="UTF-8">
 <meta name="description" content="Ośrodek Wypoczynkowy SŁONECZKO-Jak u Mamy - Mszana Dolna ul. Stawowa 35. Zaprasza na wypoczynek do Mszany Dolnej - zapewniamy pokoje z łazienkami przewodnika...." />        
 <meta name="keywords" content="agrowczasy, pokoje, gościnne, kwatery, pensjonaty, góry, beskid wyspowy, gorce, ośrodek wczasowy, bed & breakfast, śniadanie, obiad, ciasta na zmówienie, urlop, wczasy, dom wczasowy, noclegi, rekreacja, wakacje, urlop, ferie, wczasy w górach, apartament, Mszana Dolna, wczasy w Mszanie Dolnej" />
@@ -15,8 +15,7 @@
 
 </head>
 
-<body class="w3-light-grey">
-
+<body class="w3-light-grey"> 
 <!-- Navigation Bar -->
 <div id="logo">
    <a href="#"><i></i><img src="img/logo.png" alt="Sloneczko-Jak-u-Mamy" height="30%" width="15%"/></a>
@@ -372,10 +371,12 @@
     <a href="https://www.facebook.com/SloneczkoJakUMamy/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
   </div>
   <p>Powered by <a href="#" target="_blank">MŁa</a></p>
+
 </footer>
 
 <!-- Add Google Maps -->
 <script>
+
 function myMap() {
   var myCenter = new google.maps.LatLng(49.674840,20.055930);
   var mapCanvas = document.getElementById("map");
@@ -441,6 +442,20 @@ function carousel() {
     dots[Index-1].className += " active";
     captionText.innerHTML = dots[Index-1].alt;
   } 
+
+
+  var MyObject = function(name)   
+  {  
+  this.name = name; 
+  }; 
+  MyObject.prototype.name = 'HelloWorldski'; 
+  MyObject.prototype.introduce = function() {      
+  return this.name; 
+  } 
+  oExample = new MyObject('MyExample'); 
+  delete oExample.name; 
+  oExample.introduce(); // 'HelloWorldski'; 
+
 </script>
 
 
