@@ -182,3 +182,7 @@ img {vertical-align: middle;
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.syl_paragraph{
+  font-size: 10px !important;
+}
