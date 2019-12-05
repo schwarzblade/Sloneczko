@@ -1,9 +1,9 @@
 <?php
 $to= "peszel1@o2.pl";
-$imie=$_POST['Imie'];
+//$imie=$_POST['Imie'];
 $subject = "Zapytanie ze strony www";
 //$email=$_POST['Email'];
-$message=$_POST['Wiadmosc'];
+$message=$_POST['Wiadomosc'];
 //$headers = "From:"+ $email;
 if(mail($to,$subject,$message,$headers))
 	echo "wiadmosc wyslana";
